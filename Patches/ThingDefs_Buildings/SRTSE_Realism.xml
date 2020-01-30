@@ -30,8 +30,8 @@
         <xpath>Defs/ThingDef[defName="SRTSSuperpod"]/costList</xpath>
         <value>
           <costList>
-            <Steel>850</Steel>
-            <Plasteel>50</Plasteel>
+            <Steel>1250</Steel>
+            <Plasteel>100</Plasteel>
             <Gold>120</Gold>
             <Silver>1200</Silver>
             <ComponentIndustrial>12</ComponentIndustrial>
@@ -48,9 +48,9 @@
         <xpath>Defs/ThingDef[defName="SRTSSkip"]/costList</xpath>
         <value>
           <costList>
-            <Steel>2400</Steel>
-            <Plasteel>150</Plasteel>
-            <Gold>160</Gold>
+            <Steel>3600</Steel>
+            <Plasteel>235</Plasteel>
+            <Gold>270</Gold>
             <Silver>4650</Silver>
             <ComponentIndustrial>18</ComponentIndustrial>
           </costList>
@@ -70,7 +70,7 @@
             <ShuttleComp_MechSystem>20</ShuttleComp_MechSystem>
             <ShuttleComp_ElectricSystem>8</ShuttleComp_ElectricSystem>
             <ShuttleComp_Engines>12</ShuttleComp_Engines>
-            <ShuttleComp_Structural>6</ShuttleComp_Structural>
+            <ShuttleComp_Structural>24</ShuttleComp_Structural>
           </costList>
         </value>
       </li>
@@ -85,9 +85,9 @@
         <value>
           <costList>
             <ShuttleComp_Plates>12</ShuttleComp_Plates>
-            <ShuttleComp_MechSystem>12</ShuttleComp_MechSystem>
+            <ShuttleComp_MechSystem>18</ShuttleComp_MechSystem>
             <ShuttleComp_ElectricSystem>12</ShuttleComp_ElectricSystem>
-            <ShuttleComp_Engines>7</ShuttleComp_Engines>
+            <ShuttleComp_Engines>12</ShuttleComp_Engines>
             <ShuttleComp_Structural>24</ShuttleComp_Structural>
           </costList>
         </value>
@@ -102,11 +102,31 @@
         <xpath>Defs/ThingDef[defName="SRTSMkIII"]/costList</xpath>
         <value>
           <costList>
-            <ShuttleComp_MeshPlate>24</ShuttleComp_MeshPlate>
-            <ShuttleComp_MechSystem>6</ShuttleComp_MechSystem>
-            <ShuttleComp_ElectricSystem>12</ShuttleComp_ElectricSystem>
-            <ShuttleComp_Engines>12</ShuttleComp_Engines>
-            <ShuttleComp_Structural>24</ShuttleComp_Structural>
+            <ShuttleComp_MeshPlate>17</ShuttleComp_MeshPlate>
+            <ShuttleComp_Plates>13</ShuttleComp_Plates>
+            <ShuttleComp_MechSystem>12</ShuttleComp_MechSystem>
+            <ShuttleComp_ElectricSystem>18</ShuttleComp_ElectricSystem>
+            <ShuttleComp_Engines>24</ShuttleComp_Engines>
+            <ShuttleComp_Structural>32</ShuttleComp_Structural>
+          </costList>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SRTSMkIIIp"]/costList</xpath>
+        <value>
+          <costList>
+            <ShuttleComp_MeshPlate>17</ShuttleComp_MeshPlate>
+            <ShuttleComp_Plates>24</ShuttleComp_Plates>
+            <ShuttleComp_MechSystem>14</ShuttleComp_MechSystem>
+            <ShuttleComp_ElectricSystem>18</ShuttleComp_ElectricSystem>
+            <ShuttleComp_Engines>32</ShuttleComp_Engines>
+            <ShuttleComp_Structural>42</ShuttleComp_Structural>
           </costList>
         </value>
       </li>
@@ -121,11 +141,11 @@
         <xpath>Defs/ThingDef[defName="SRTSMkIV"]/costList</xpath>
         <value>
           <costList>
-            <ShuttleComp_Plates>32</ShuttleComp_Plates>
-            <ShuttleComp_MechSystem>30</ShuttleComp_MechSystem>
-            <ShuttleComp_ElectricSystem>25</ShuttleComp_ElectricSystem>
-            <ShuttleComp_Structural>32</ShuttleComp_Structural>
-            <ShuttleComp_Reactor>1</ShuttleComp_Reactor>
+            <ShuttleComp_Plates>50</ShuttleComp_Plates>
+            <ShuttleComp_MechSystem>35</ShuttleComp_MechSystem>
+            <ShuttleComp_ElectricSystem>32</ShuttleComp_ElectricSystem>
+            <ShuttleComp_Structural>88</ShuttleComp_Structural>
+            <ShuttleComp_Reactor>2</ShuttleComp_Reactor>
             <ShuttleComp_DimShift>5</ShuttleComp_DimShift>
           </costList>
         </value>
