@@ -71,6 +71,7 @@
             <ShuttleComp_ElectricSystem>8</ShuttleComp_ElectricSystem>
             <ShuttleComp_Engines>12</ShuttleComp_Engines>
             <ShuttleComp_Structural>24</ShuttleComp_Structural>
+            <Silver>3400</Silver>
           </costList>
         </value>
       </li>
@@ -89,6 +90,7 @@
             <ShuttleComp_ElectricSystem>12</ShuttleComp_ElectricSystem>
             <ShuttleComp_Engines>12</ShuttleComp_Engines>
             <ShuttleComp_Structural>24</ShuttleComp_Structural>
+            <Silver>9000</Silver>
           </costList>
         </value>
       </li>
@@ -108,6 +110,7 @@
             <ShuttleComp_ElectricSystem>18</ShuttleComp_ElectricSystem>
             <ShuttleComp_Engines>24</ShuttleComp_Engines>
             <ShuttleComp_Structural>32</ShuttleComp_Structural>
+            <Silver>10500</Silver>
           </costList>
         </value>
       </li>
@@ -127,6 +130,7 @@
             <ShuttleComp_ElectricSystem>18</ShuttleComp_ElectricSystem>
             <ShuttleComp_Engines>32</ShuttleComp_Engines>
             <ShuttleComp_Structural>42</ShuttleComp_Structural>
+            <Silver>10500</Silver>
           </costList>
         </value>
       </li>
@@ -147,6 +151,7 @@
             <ShuttleComp_Structural>88</ShuttleComp_Structural>
             <ShuttleComp_Reactor>2</ShuttleComp_Reactor>
             <ShuttleComp_DimShift>5</ShuttleComp_DimShift>
+            <Silver>12500</Silver>
           </costList>
         </value>
       </li>
