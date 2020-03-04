@@ -1,28 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>SRTS</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
-        <li Class="PatchOperationReplace">
-          <xpath>Defs/ThingDef[defName="Building_Helicopter"]/costList</xpath>
-          <value>
-            <costList>
-              <Steel>4000</Steel>
-              <Plasteel>850</Plasteel>
-              <ComponentIndustrial>50</ComponentIndustrial>
-              <ComponentSpacer>3</ComponentSpacer>
-            </costList>
-          </value>
-        </li>
-      </operations>
-    </match>
-  </Operation>
-
   <Operation Class="PatchOperationSequence">
     <success>Always</success>
     <operations>
@@ -63,7 +41,7 @@
     <success>Always</success>
     <operations>
       <li Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="SRTF"]/costList</xpath>
+        <xpath>Defs/ThingDef[defName="SRAF"]/costList</xpath>
         <value>
           <costList>
             <ShuttleComp_Plates>24</ShuttleComp_Plates>
@@ -91,6 +69,25 @@
             <ShuttleComp_Engines>12</ShuttleComp_Engines>
             <ShuttleComp_Structural>24</ShuttleComp_Structural>
             <Silver>9000</Silver>
+          </costList>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SRAFTek"]/costList</xpath>
+        <value>
+          <costList>
+            <ShuttleComp_Plates>20</ShuttleComp_Plates>
+            <ShuttleComp_MechSystem>30</ShuttleComp_MechSystem>
+            <ShuttleComp_ElectricSystem>15</ShuttleComp_ElectricSystem>
+            <ShuttleComp_Engines>12</ShuttleComp_Engines>
+            <ShuttleComp_Structural>24</ShuttleComp_Structural>
+            <Silver>4500</Silver>
           </costList>
         </value>
       </li>

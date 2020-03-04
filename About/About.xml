@@ -2,6 +2,10 @@
 <ModMetaData>
   <name>SRTS Expanded Realism Patch</name>
   <author>Neceros</author>
-  <supportedVersions><li>1.0</li></supportedVersions>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+  </supportedVersions>
+  <packageId>neceros.srtserealismpatch</packageId>
   <description>Changes various aspects of the SRTS line to make the experience more immersive.</description>
 </ModMetaData>
