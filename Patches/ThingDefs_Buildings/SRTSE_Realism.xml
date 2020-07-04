@@ -16,12 +16,6 @@
           </costList>
         </value>
       </li>
-    </operations>
-  </Operation>
-
-  <Operation Class="PatchOperationSequence">
-    <success>Always</success>
-    <operations>
       <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="SRTSSkip"]/costList</xpath>
         <value>
@@ -34,121 +28,86 @@
           </costList>
         </value>
       </li>
-    </operations>
-  </Operation>
-
-  <Operation Class="PatchOperationSequence">
-    <success>Always</success>
-    <operations>
       <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="SRAF"]/costList</xpath>
         <value>
           <costList>
-            <ShuttleComp_Plates>24</ShuttleComp_Plates>
-            <ShuttleComp_MechSystem>20</ShuttleComp_MechSystem>
-            <ShuttleComp_ElectricSystem>8</ShuttleComp_ElectricSystem>
-            <ShuttleComp_Engines>12</ShuttleComp_Engines>
-            <ShuttleComp_Structural>24</ShuttleComp_Structural>
+            <Steel>8500</Steel>
+            <Plasteel>425</Plasteel>
+            <Gold>250</Gold>
             <Silver>3400</Silver>
+            <ComponentIndustrial>24</ComponentIndustrial>
           </costList>
         </value>
       </li>
-    </operations>
-  </Operation>
-
-  <Operation Class="PatchOperationSequence">
-    <success>Always</success>
-    <operations>
-      <li Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="SRTSMkII"]/costList</xpath>
-        <value>
-          <costList>
-            <ShuttleComp_Plates>12</ShuttleComp_Plates>
-            <ShuttleComp_MechSystem>18</ShuttleComp_MechSystem>
-            <ShuttleComp_ElectricSystem>12</ShuttleComp_ElectricSystem>
-            <ShuttleComp_Engines>12</ShuttleComp_Engines>
-            <ShuttleComp_Structural>24</ShuttleComp_Structural>
-            <Silver>9000</Silver>
-          </costList>
-        </value>
-      </li>
-    </operations>
-  </Operation>
-
-  <Operation Class="PatchOperationSequence">
-    <success>Always</success>
-    <operations>
       <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="SRAFTek"]/costList</xpath>
         <value>
           <costList>
-            <ShuttleComp_Plates>20</ShuttleComp_Plates>
-            <ShuttleComp_MechSystem>30</ShuttleComp_MechSystem>
-            <ShuttleComp_ElectricSystem>15</ShuttleComp_ElectricSystem>
-            <ShuttleComp_Engines>12</ShuttleComp_Engines>
-            <ShuttleComp_Structural>24</ShuttleComp_Structural>
-            <Silver>4500</Silver>
+            <Steel>14600</Steel>
+            <Plasteel>425</Plasteel>
+            <Gold>250</Gold>
+            <Silver>3000</Silver>
+            <ComponentIndustrial>48</ComponentIndustrial>
           </costList>
         </value>
       </li>
-    </operations>
-  </Operation>
-
-  <Operation Class="PatchOperationSequence">
-    <success>Always</success>
-    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SRTSMkII"]/costList</xpath>
+        <value>
+          <costList>
+            <Steel>4600</Steel>
+            <Plasteel>860</Plasteel>
+            <Gold>460</Gold>
+            <Silver>9000</Silver>
+            <Uranium>65</Uranium>
+            <ComponentIndustrial>24</ComponentIndustrial>
+            <ComponentSpacer>8</ComponentSpacer>
+          </costList>
+        </value>
+      </li>
       <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="SRTSMkIII"]/costList</xpath>
         <value>
           <costList>
-            <ShuttleComp_MeshPlate>17</ShuttleComp_MeshPlate>
-            <ShuttleComp_Plates>13</ShuttleComp_Plates>
-            <ShuttleComp_MechSystem>12</ShuttleComp_MechSystem>
-            <ShuttleComp_ElectricSystem>18</ShuttleComp_ElectricSystem>
-            <ShuttleComp_Engines>24</ShuttleComp_Engines>
-            <ShuttleComp_Structural>32</ShuttleComp_Structural>
+            <Steel>3400</Steel>
+            <Plasteel>1250</Plasteel>
+            <Gold>520</Gold>
             <Silver>10500</Silver>
+            <Neutroamine>250</Neutroamine>
+            <Uranium>320</Uranium>
+            <ComponentIndustrial>50</ComponentIndustrial>
+            <ComponentSpacer>24</ComponentSpacer>
           </costList>
         </value>
       </li>
-    </operations>
-  </Operation>
-
-  <Operation Class="PatchOperationSequence">
-    <success>Always</success>
-    <operations>
       <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="SRTSMkIIIp"]/costList</xpath>
         <value>
           <costList>
-            <ShuttleComp_MeshPlate>17</ShuttleComp_MeshPlate>
-            <ShuttleComp_Plates>24</ShuttleComp_Plates>
-            <ShuttleComp_MechSystem>14</ShuttleComp_MechSystem>
-            <ShuttleComp_ElectricSystem>18</ShuttleComp_ElectricSystem>
-            <ShuttleComp_Engines>32</ShuttleComp_Engines>
-            <ShuttleComp_Structural>42</ShuttleComp_Structural>
+            <Steel>5000</Steel>
+            <Plasteel>1337</Plasteel>
+            <Gold>520</Gold>
             <Silver>10500</Silver>
+            <Neutroamine>250</Neutroamine>
+            <Uranium>320</Uranium>
+            <ComponentIndustrial>60</ComponentIndustrial>
+            <ComponentSpacer>24</ComponentSpacer>
           </costList>
         </value>
       </li>
-    </operations>
-  </Operation>
-
-
-  <Operation Class="PatchOperationSequence">
-    <success>Always</success>
-    <operations>
       <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="SRTSMkIV"]/costList</xpath>
         <value>
           <costList>
-            <ShuttleComp_Plates>50</ShuttleComp_Plates>
-            <ShuttleComp_MechSystem>35</ShuttleComp_MechSystem>
-            <ShuttleComp_ElectricSystem>32</ShuttleComp_ElectricSystem>
-            <ShuttleComp_Structural>88</ShuttleComp_Structural>
-            <ShuttleComp_Reactor>2</ShuttleComp_Reactor>
-            <ShuttleComp_DimShift>5</ShuttleComp_DimShift>
+            <Steel>17000</Steel>
+            <Plasteel>2000</Plasteel>
+            <Gold>1024</Gold>
             <Silver>12500</Silver>
+            <Uranium>640</Uranium>
+            <Hyperweave>160</Hyperweave>
+            <ComponentIndustrial>80</ComponentIndustrial>
+            <ComponentSpacer>36</ComponentSpacer>
           </costList>
         </value>
       </li>
